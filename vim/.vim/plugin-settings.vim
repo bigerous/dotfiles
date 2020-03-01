@@ -80,7 +80,7 @@ let g:NERDTreeDirArrowCollapsible = ''
 let g:vim_json_syntax_conceal = 0
 
 " verticle diffs
-set diffopt+=vertical
+set diffopt=vertical
 
 " close if final buffer is netrw or the quickfix
 augroup finalcountdown
